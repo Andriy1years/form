@@ -11,8 +11,8 @@ function createSnowflakes() {
     flakes.push({
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
-      radius: Math.random() * 3 + 1,
-      speed: Math.random() * 3 + 1,
+      radius: Math.random() * 3 + 1, 
+      speed: Math.random() * 3 + 1, 
       opacity: Math.random(),
     });
   }
