@@ -1,12 +1,12 @@
 body {
-    
+
     margin: 0;
     overflow: hidden;
 }
 
-canvas{
-    position: absolute; 
-    z-index: 1; 
+canvas {
+    position: absolute;
+    z-index: 1;
 }
 
 
@@ -20,8 +20,8 @@ canvas{
 
 .forms {
     position: absolute;
-    display:inline;
-    z-index: 3;
+    display: inline;
+    z-index: 2;
     border: solid;
     border-radius: 8px;
     border-color: #6c6c6c5e;
@@ -32,7 +32,7 @@ canvas{
     border-width: 4px;
     padding-top: 0px;
     padding-bottom: 0px;
-    
+
 }
 
 input {
@@ -58,7 +58,7 @@ input::after {
     margin-bottom: 30px;
     margin-top: 5px;
 }
- 
+
 .not_register {
     margin-left: 50%;
     translate: -50%;
@@ -74,17 +74,17 @@ input::after {
 }
 
 #next {
-position: relative;
+    position: relative;
     background: linear-gradient(to right top, #70aace86, #c7c7ed);
-    
+
     padding: 69px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 15px;
     font-size: 20px;
     border-radius: 50px;
-left: 50%;
-translate: -50%;
+    left: 50%;
+    translate: -50%;
 }
 
 .range_begtaund {
@@ -92,8 +92,8 @@ translate: -50%;
     height: 20px;
     border: solid 2px;
     border-radius: 20px;
-    background: linear-gradient(to left top, #c7c7c79c, #3500c8);
-    margin-left: 5px;
+    background: linear-gradient(to left top, #c7c7c79c, #a08bd8);
+    margin-left: 3px;
     margin-bottom: 5px;
     margin-top: 3px;
 }
@@ -111,13 +111,14 @@ translate: -50%;
 .blur {
     position: absolute;
     z-index: 1;
-    filter: blur(8px);
-    width: 240px;
-    height: 320px;
-    background-color: #d9d9d965;
+    filter: blur(5px);
+    width: 230px;
+    height: 290px;
+    background-color: #bbbbbb65;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
    
-    
-    
 }
 
 .login_and_register_p {
@@ -130,9 +131,10 @@ translate: -50%;
     margin-bottom: -2px;
     margin-right: 10px;
     color: #242424c8;
+
 }
 
-#email{
+#email {
     border-radius: 50px;
     background-color: #d2d2d261;
     border-color: #000000de;
@@ -143,4 +145,3 @@ translate: -50%;
     background-color: #d2d2d261;
     border-color: #000000de;
 }
-
