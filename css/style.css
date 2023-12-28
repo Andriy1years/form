@@ -22,7 +22,7 @@ canvas {
     position: absolute;
     display: inline;
     z-index: 2;
-    border: solid;
+    border: solid; 
     border-radius: 8px;
     border-color: #6c6c6c5e;
     padding: 20px;
