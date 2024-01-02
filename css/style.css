@@ -1,7 +1,11 @@
 body {
+background-image: url(https://abrakadabra.fun/uploads/posts/2021-12/1639936202_3-abrakadabra-fun-p-fon-gori-dlya-prezentatsii-3.jpg);
 
-    margin: 0;
-    overflow: hidden;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+overflow: hidden; /* Запрет прокрутки страницы */
+margin: 0;
 }
 
 canvas {
@@ -10,13 +14,7 @@ canvas {
 }
 
 
-.bg_img {
-    position: absolute;
-    margin-top: -8px;
-    margin-left: -8px;
-    width: 1980px;
-    z-index: 1;
-}
+
 
 .forms {
     position: absolute;
@@ -28,7 +26,7 @@ canvas {
     padding: 20px;
     top: 50%;
     left: 50%;
-    translate: -50% -50%;
+   transform: translate(-50%, -50%);
     border-width: 4px;
     padding-top: 0px;
     padding-bottom: 0px;
